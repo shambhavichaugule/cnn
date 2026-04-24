@@ -5,11 +5,11 @@ from kaggle_secrets import UserSecretsClient
 user_secrets = UserSecretsClient()
 HF_Token = user_secrets.get_secret("HF_Token")
 
-from dotenv import load_dotenv
-import os
-from huggingface_hub import login
-load_dotenv()
-login(token=os.getenv("HF_Token"))
+# from dotenv import load_dotenv
+# import os
+# from huggingface_hub import login
+# load_dotenv()
+# login(token=os.getenv("HF_Token"))
 
 
 import numpy as np
