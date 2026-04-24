@@ -554,5 +554,3 @@ The combination is especially powerful when:
 Using a pretrained model incorrectly (40%) is worse than building from scratch (82%). Evaluating augmentation too early (78% at 20 epochs) makes it look like it failed when it actually needed more time. Both are PM failures as much as engineering failures — because the PM must define evaluation criteria, not just read the final number.
 
 ---
-
-*Built as part of a learning journey from Senior PM to AI PM — April 2026*
